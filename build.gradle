@@ -1,0 +1,45 @@
+
+buildscript {
+    // apply LOCAL copy of j2objc PR 618 which adds j2objc 1.0.2 support
+    // https://github.com/j2objc-contrib/j2objc-gradle/pull/618
+    repositories {
+        flatDir dirs: './libs'
+    }
+
+    dependencies {
+        classpath group: 'com.github.j2objccontrib.j2objcgradle', name: 'j2objc-gradle',
+                version: '0.6.1-alpha-SNAPSHOT'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'com.github.j2objccontrib.j2objcgradle'
+
+
+group 'com.totsp'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+
+// Plugin settings; put these at the bottom of the file.
+j2objcConfig {
+    // Sets up libraries you depend on
+    autoConfigureDeps true
+
+    testMinExpectedTests 0
+
+    // Omit these two lines if you don't configure your Xcode project with CocoaPods
+    ///xcodeProjectDir '../ios'  //  suggested directory name
+    ///xcodeTargetsIos 'IOS-APP', 'IOS-APPTests'  // replace with your iOS targets
+
+    finalConfigure()          // Must be last call to configuration
+}
