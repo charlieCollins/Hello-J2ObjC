@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		538EF6391D2AE1790040E70A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538EF6381D2AE1790040E70A /* AppDelegate.swift */; };
+		538EF63B1D2AE1790040E70A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538EF63A1D2AE1790040E70A /* ViewController.swift */; };
+		538EF63E1D2AE1790040E70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538EF63C1D2AE1790040E70A /* Main.storyboard */; };
+		538EF6401D2AE1790040E70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538EF63F1D2AE1790040E70A /* Assets.xcassets */; };
+		538EF6431D2AE1790040E70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 538EF6411D2AE1790040E70A /* LaunchScreen.storyboard */; };
+		538EF64E1D2AE1790040E70A /* Hello_J2ObjC_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538EF64D1D2AE1790040E70A /* Hello_J2ObjC_iOSTests.swift */; };
+		538EF65C1D2AE8160040E70A /* libHello-J2ObjC-j2objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 538EF65A1D2AE6D80040E70A /* libHello-J2ObjC-j2objc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		538EF64A1D2AE1790040E70A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 538EF62D1D2AE1790040E70A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 538EF6341D2AE1790040E70A;
+			remoteInfo = "Hello-J2ObjC-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		538EF6351D2AE1790040E70A /* Hello-J2ObjC-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-J2ObjC-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538EF6381D2AE1790040E70A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		538EF63A1D2AE1790040E70A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		538EF63D1D2AE1790040E70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		538EF63F1D2AE1790040E70A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538EF6421D2AE1790040E70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		538EF6441D2AE1790040E70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538EF6491D2AE1790040E70A /* Hello-J2ObjC-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello-J2ObjC-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		538EF64D1D2AE1790040E70A /* Hello_J2ObjC_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_J2ObjC_iOSTests.swift; sourceTree = "<group>"; };
+		538EF64F1D2AE1790040E70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		538EF6581D2AE6970040E70A /* libHello-J2ObjC-j2objc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHello-J2ObjC-j2objc.a"; path = "../Hello-J2ObjC/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosRelease/libHello-J2ObjC-j2objc.a"; sourceTree = "<group>"; };
+		538EF65A1D2AE6D80040E70A /* libHello-J2ObjC-j2objc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHello-J2ObjC-j2objc.a"; path = "../Hello-J2ObjC/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosDebug/libHello-J2ObjC-j2objc.a"; sourceTree = "<group>"; };
+		538EF65D1D2AE8F80040E70A /* Hello-J2ObjC-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello-J2ObjC-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538EF6321D2AE1790040E70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538EF65C1D2AE8160040E70A /* libHello-J2ObjC-j2objc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538EF6461D2AE1790040E70A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538EF62C1D2AE1790040E70A = {
+			isa = PBXGroup;
+			children = (
+				538EF65A1D2AE6D80040E70A /* libHello-J2ObjC-j2objc.a */,
+				538EF6581D2AE6970040E70A /* libHello-J2ObjC-j2objc.a */,
+				538EF6371D2AE1790040E70A /* Hello-J2ObjC-iOS */,
+				538EF64C1D2AE1790040E70A /* Hello-J2ObjC-iOSTests */,
+				538EF6361D2AE1790040E70A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538EF6361D2AE1790040E70A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538EF6351D2AE1790040E70A /* Hello-J2ObjC-iOS.app */,
+				538EF6491D2AE1790040E70A /* Hello-J2ObjC-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538EF6371D2AE1790040E70A /* Hello-J2ObjC-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				538EF6381D2AE1790040E70A /* AppDelegate.swift */,
+				538EF63A1D2AE1790040E70A /* ViewController.swift */,
+				538EF63C1D2AE1790040E70A /* Main.storyboard */,
+				538EF63F1D2AE1790040E70A /* Assets.xcassets */,
+				538EF6411D2AE1790040E70A /* LaunchScreen.storyboard */,
+				538EF6441D2AE1790040E70A /* Info.plist */,
+				538EF65D1D2AE8F80040E70A /* Hello-J2ObjC-iOS-Bridging-Header.h */,
+			);
+			path = "Hello-J2ObjC-iOS";
+			sourceTree = "<group>";
+		};
+		538EF64C1D2AE1790040E70A /* Hello-J2ObjC-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				538EF64D1D2AE1790040E70A /* Hello_J2ObjC_iOSTests.swift */,
+				538EF64F1D2AE1790040E70A /* Info.plist */,
+			);
+			path = "Hello-J2ObjC-iOSTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538EF6341D2AE1790040E70A /* Hello-J2ObjC-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538EF6521D2AE1790040E70A /* Build configuration list for PBXNativeTarget "Hello-J2ObjC-iOS" */;
+			buildPhases = (
+				538EF6311D2AE1790040E70A /* Sources */,
+				538EF6321D2AE1790040E70A /* Frameworks */,
+				538EF6331D2AE1790040E70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hello-J2ObjC-iOS";
+			productName = "Hello-J2ObjC-iOS";
+			productReference = 538EF6351D2AE1790040E70A /* Hello-J2ObjC-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		538EF6481D2AE1790040E70A /* Hello-J2ObjC-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538EF6551D2AE1790040E70A /* Build configuration list for PBXNativeTarget "Hello-J2ObjC-iOSTests" */;
+			buildPhases = (
+				538EF6451D2AE1790040E70A /* Sources */,
+				538EF6461D2AE1790040E70A /* Frameworks */,
+				538EF6471D2AE1790040E70A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538EF64B1D2AE1790040E70A /* PBXTargetDependency */,
+			);
+			name = "Hello-J2ObjC-iOSTests";
+			productName = "Hello-J2ObjC-iOSTests";
+			productReference = 538EF6491D2AE1790040E70A /* Hello-J2ObjC-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538EF62D1D2AE1790040E70A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Collins, Charles";
+				TargetAttributes = {
+					538EF6341D2AE1790040E70A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = G2F8HJ483S;
+					};
+					538EF6481D2AE1790040E70A = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = G2F8HJ483S;
+						TestTargetID = 538EF6341D2AE1790040E70A;
+					};
+				};
+			};
+			buildConfigurationList = 538EF6301D2AE1790040E70A /* Build configuration list for PBXProject "Hello-J2ObjC-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538EF62C1D2AE1790040E70A;
+			productRefGroup = 538EF6361D2AE1790040E70A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538EF6341D2AE1790040E70A /* Hello-J2ObjC-iOS */,
+				538EF6481D2AE1790040E70A /* Hello-J2ObjC-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538EF6331D2AE1790040E70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538EF6431D2AE1790040E70A /* LaunchScreen.storyboard in Resources */,
+				538EF6401D2AE1790040E70A /* Assets.xcassets in Resources */,
+				538EF63E1D2AE1790040E70A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538EF6471D2AE1790040E70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538EF6311D2AE1790040E70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538EF63B1D2AE1790040E70A /* ViewController.swift in Sources */,
+				538EF6391D2AE1790040E70A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538EF6451D2AE1790040E70A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538EF64E1D2AE1790040E70A /* Hello_J2ObjC_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		538EF64B1D2AE1790040E70A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 538EF6341D2AE1790040E70A /* Hello-J2ObjC-iOS */;
+			targetProxy = 538EF64A1D2AE1790040E70A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		538EF63C1D2AE1790040E70A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538EF63D1D2AE1790040E70A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		538EF6411D2AE1790040E70A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				538EF6421D2AE1790040E70A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		538EF6501D2AE1790040E70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		538EF6511D2AE1790040E70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538EF6531D2AE1790040E70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/j2objc-1.0.2/include";
+				INFOPLIST_FILE = "Hello-J2ObjC-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"/Users/cecollins/projects/j2objc-1.0.2/lib",
+					"/Users/cecollins/projects/Hello-J2ObjC/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosDebug",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ljre_emul";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hello-J2ObjC-iOS/Hello-J2ObjC-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/Hello-J2ObjC/build/j2objcOutputs/src/main/objc";
+			};
+			name = Debug;
+		};
+		538EF6541D2AE1790040E70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/j2objc-1.0.2/include";
+				INFOPLIST_FILE = "Hello-J2ObjC-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"/Users/cecollins/projects/j2objc-1.0.2/lib",
+					"/Users/cecollins/projects/Hello-J2ObjC/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosRelease",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ljre_emul";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hello-J2ObjC-iOS/Hello-J2ObjC-iOS-Bridging-Header.h";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/Hello-J2ObjC/build/j2objcOutputs/src/main/objc";
+			};
+			name = Release;
+		};
+		538EF6561D2AE1790040E70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hello-J2ObjC-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello-J2ObjC-iOS.app/Hello-J2ObjC-iOS";
+			};
+			name = Debug;
+		};
+		538EF6571D2AE1790040E70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hello-J2ObjC-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello-J2ObjC-iOS.app/Hello-J2ObjC-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538EF6301D2AE1790040E70A /* Build configuration list for PBXProject "Hello-J2ObjC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538EF6501D2AE1790040E70A /* Debug */,
+				538EF6511D2AE1790040E70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538EF6521D2AE1790040E70A /* Build configuration list for PBXNativeTarget "Hello-J2ObjC-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538EF6531D2AE1790040E70A /* Debug */,
+				538EF6541D2AE1790040E70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		538EF6551D2AE1790040E70A /* Build configuration list for PBXNativeTarget "Hello-J2ObjC-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538EF6561D2AE1790040E70A /* Debug */,
+				538EF6571D2AE1790040E70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538EF62D1D2AE1790040E70A /* Project object */;
+}

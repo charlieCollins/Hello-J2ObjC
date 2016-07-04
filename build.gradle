@@ -39,8 +39,12 @@ j2objcConfig {
     //testMinExpectedTests 0
 
     // Omit these two lines if you don't configure your Xcode project with CocoaPods
-    ///xcodeProjectDir '../ios'  //  suggested directory name
-    ///xcodeTargetsIos 'IOS-APP', 'IOS-APPTests'  // replace with your iOS targets
+    xcodeProjectDir '../Hello-J2ObjC-iOS'
+    xcodeTargetsIos 'Hello-J2ObjC-iOS', 'Hello-J2ObjC-iOSTests'
+
+    j2objcXcode {
+        enabled = false
+    }
 
     finalConfigure()          // Must be last call to configuration
 }
