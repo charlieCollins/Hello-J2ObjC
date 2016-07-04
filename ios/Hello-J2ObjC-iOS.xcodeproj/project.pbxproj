@@ -339,19 +339,19 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/j2objc-1.0.2/include";
+				"HEADER_SEARCH_PATHS[arch=*]" = $J2OBJC_HOME/include;
 				INFOPLIST_FILE = "Hello-J2ObjC-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
-					"/Users/cecollins/projects/j2objc-1.0.2/lib",
-					"/Users/cecollins/projects/Hello-J2ObjC/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosDebug",
+					$J2OBJC_HOME/lib,
+					"../java/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosDebug",
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-ljre_emul";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hello-J2ObjC-iOS/Hello-J2ObjC-iOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/Hello-J2ObjC/build/j2objcOutputs/src/main/objc";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = ../java/build/j2objcOutputs/src/main/objc;
 			};
 			name = Debug;
 		};
@@ -361,18 +361,18 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/j2objc-1.0.2/include";
+				"HEADER_SEARCH_PATHS[arch=*]" = $J2OBJC_HOME/include;
 				INFOPLIST_FILE = "Hello-J2ObjC-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[arch=*]" = (
-					"/Users/cecollins/projects/j2objc-1.0.2/lib",
-					"/Users/cecollins/projects/Hello-J2ObjC/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosRelease",
+					$J2OBJC_HOME/lib,
+					"../java/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosRelease",
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-ljre_emul";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Hello-J2ObjC-iOS/Hello-J2ObjC-iOS-Bridging-Header.h";
-				"USER_HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/Hello-J2ObjC/build/j2objcOutputs/src/main/objc";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = ../java/build/j2objcOutputs/src/main/objc;
 			};
 			name = Release;
 		};
@@ -419,6 +419,7 @@
 				538EF6541D2AE1790040E70A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		538EF6551D2AE1790040E70A /* Build configuration list for PBXNativeTarget "Hello-J2ObjC-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				538EF6571D2AE1790040E70A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

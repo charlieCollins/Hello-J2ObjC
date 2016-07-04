@@ -29,7 +29,6 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 
-
 // Plugin settings; put these at the bottom of the file.
 j2objcConfig {
     // Sets up libraries you depend on
@@ -39,9 +38,10 @@ j2objcConfig {
     //testMinExpectedTests 0
 
     // Omit these two lines if you don't configure your Xcode project with CocoaPods
-    xcodeProjectDir '../Hello-J2ObjC-iOS'
+    xcodeProjectDir '.ios'
     xcodeTargetsIos 'Hello-J2ObjC-iOS', 'Hello-J2ObjC-iOSTests'
 
+    // including static libraries MANUALLY, for now
     j2objcXcode {
         enabled = false
     }
