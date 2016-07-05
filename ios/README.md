@@ -1,31 +1,29 @@
-XCode/iOS Setup
-===============
+Hello J2ObjC XCode
+==================
 
-APPROACH
---------
+See notes in ../README.md (if you didn't start there, go read that).
+
 There are many ways to work with J2ObjC generated code inside an iOS project (XCode).
-For this simple Hello World example I am importing code compiled with J2Objc as a STATIC LIBRARY.
+For this Hello World example this project favors importing code compiled with J2Objc as a STATIC LIBRARY.
 
-REQUIRED STEPS
---------------
-You need to have J2ObjC installed, so that you can link to it's libs and headers in XCode.
-Then you need to set an env var to point to where your install.
-```export J2OBJC_HOME=<where you installed J2OBJC```
+This iOS project ASSUMES you have already succeeded in transpiling
+*HelloWorld.java* into *libHello-J2ObjC-j2objc.a* (the static library) from the top level project (../).
 
-You also need to tell XCode to allow env vars (because, it's XCode, lols).
-```defaults write com.apple.dt.Xcode UseSanitizedBuildSystemEnvironment -bool NO```
 
-Once you have J2ObjC installed (extracted) and have defined J2OBJC_HOME, proceed...
 
-TODO - make this not suck, quick notes....
+Setup XCode
+-----------
 
-1. Make sure you can BUILD the ObjC code using the java project (see README there).
-2. Make sure your java/build/j2ObjcOutputs output has .h and .m files.
-3. Make sure your java/build/packedBinaries output has .a files (these are the libraries).
-4. Add Build Settings Other Linker Flags for -ljre_emul
-5. Add Build Settings Search Paths (Header, Library, User Header)
-6. Add Build Phase Link Binaries With Libraries (and point to lib)
-7. Build and Run in XCode
+* Make sure that $J2OBJC_HOME is set correctly before proceeding.
+* Allow XCode to use env vars: ```defaults write com.apple.dt.Xcode UseSanitizedBuildSystemEnvironment -bool NO```
+* Make sure that *java/build/packedBinaries/libHello-J2ObjC-j2objc.a* exists.
+* Open the iOS project in XCode: File->Open, browse to "iOS" folder of this project and open.
+
+TODO
+* Add Build Settings Other Linker Flags for -ljre_emul
+* Add Build Settings Search Paths (Header, Library, User Header)
+* Add Build Phase Link Binaries With Libraries (and point to lib)
+* Build and Run in XCode
 
 
 

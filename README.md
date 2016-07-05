@@ -10,7 +10,7 @@ Uses [IDEA](https://www.jetbrains.com/idea/), [J2ObjC](http://j2objc.org/),
 [j2objc-gradle](https://github.com/j2objc-contrib/j2objc-gradle),
 and [XCode](https://developer.apple.com/xcode/).
 
-The philosophy here is to create a static ObjC library from Java source code.
+The philosophy here is to create an ObjC STATIC LIBRARY from Java source code.
 Then AFTER the J2ObjC transpilation works, import the created library into XCode.
 
 (There are many other ways to work with J2ObjC, you can, for example, have XCode build your
@@ -43,7 +43,7 @@ Setup XCode and Include Static Library
 
 The second part is to use the static library you created in XCode with an iOS project.
 
-See the README.MD in the ./ios project
+See the README.MD in the ./ios directory.
 
 
 
