@@ -1,9 +1,25 @@
 Hello J2ObjC
 ============
 
-Sample project that is as simple as possible, HelloWorld. 
 
-Uses IDEA, [J2ObjC](http://j2objc.org/), and [j2objc-gradle](https://github.com/j2objc-contrib/j2objc-gradle) plugin, and includes required libs. 
+Overview
+--------
+Sample project for getting started with J2ObjC.
+
+Uses IDEA, [J2ObjC](http://j2objc.org/),
+[j2objc-gradle](https://github.com/j2objc-contrib/j2objc-gradle) plugin,
+and [XCode](https://developer.apple.com/xcode/) and includes required libs.
+
+
+Setup
+-----
+* Download and unzip J2ObjC.
+* Set J2OBJC_HOME as an env var (```export J2OBJC_HOME=<your dir>```).
+* Make sure J2ObjC works (```cd $J2OBJC_HOME``` >  ```j2objc -version```).
+*
+
+
+
 
 NOTE all steps to setup, etc
 
