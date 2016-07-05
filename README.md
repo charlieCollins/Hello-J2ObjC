@@ -52,5 +52,6 @@ Installing J2ObjC (example, if you don't already have it)
   ```J2OBJC_HOME=~/j2objcDist
   mkdir -p $J2OBJC_HOME; pushd $J2OBJC_HOME
   curl -L https://github.com/google/j2objc/releases/download/1.0.2/j2objc-1.0.2.zip > j2objc-1.0.2.zip
-  unzip j2objc-1.0.2.zip; popd```
+  unzip j2objc-1.0.2.zip; popd```   
+
   ```export $J2OBJC_HOME```
