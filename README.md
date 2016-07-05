@@ -16,7 +16,8 @@ Setup
 * Download and unzip J2ObjC.
 * Set J2OBJC_HOME as an env var (```export J2OBJC_HOME=<your dir>```).
 * Make sure J2ObjC works (```cd $J2OBJC_HOME``` >  ```j2objc -version```).
-*
+* Clone this repo.
+* Import this project into IDEA (the main project is plain Java), import as Gradle.
 
 
 
