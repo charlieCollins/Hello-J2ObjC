@@ -33,7 +33,7 @@ The COMPLETE settings needed to link the static library are as follows:
 * Build and Run in XCode
 
 
-TODO
+TODO (elow here are just notes for future, to simplify this, ignore) 
 After getting env vars to work add these:
 * Make sure that $J2OBJC_HOME is set correctly before proceeding.
 * Allow XCode to use env vars: ```defaults write com.apple.dt.Xcode UseSanitizedBuildSystemEnvironment -bool NO```
