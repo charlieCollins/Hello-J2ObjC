@@ -25,10 +25,10 @@ The COMPLETE settings needed to link the static library are as follows:
 * ALREADY SET - Build Settings -> Linking -> Other Linker Flags ```-ljre_emul```
 * ALREADY SET - Build Settings -> Search Paths -> Always Search User Paths set to ```Yes```.
 * UPDATE PATH - Build Settings -> Search Paths -> Header Search Paths: ```<path to J2ObjC>/include``` (for both debug and release)
-* UPDATE PATH - Build Settings -> Search Paths Library Search Paths: ```<path to J2ObjC>/lib``` (for both debug and release)
-* ALREADY SET - Build Settings -> Search Paths Library Search Paths Debug: ````../build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosDebug```
-* ALREADY SET - Build Settings -> Search Paths Library Search Paths Release: ````../build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosRelease```
-* ALREADY SET - Build Settings -> Search Paths User Header Search Paths: ````../build/j2objcOutputs/src/main/objc```
+* UPDATE PATH - Build Settings -> Search Paths -> Library Search Paths: ```<path to J2ObjC>/lib``` (for both debug and release)
+* ALREADY SET - Build Settings -> Search Paths -> Library Search Paths Debug: ````../build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosDebug```
+* ALREADY SET - Build Settings -> Search Paths -> Library Search Paths Release: ````../build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosRelease```
+* ALREADY SET - Build Settings -> Search Paths -> User Header Search Paths: ````../build/j2objcOutputs/src/main/objc```
 * ALREADY SET - Build Phase -> Link Binaries With Libraries -> and point to lib: ```libHello-J2ObjC-j2objc.a```
 * Build and Run in XCode
 
