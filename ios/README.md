@@ -21,6 +21,8 @@ Inside the iOS project go to Build Settings and Build Phase and update several p
 There are library and header search paths that must be updated, and one build phase.
 There are several RELATIVE paths that you should not have to change, and some complete paths that you will need to update.
 
+You must REPLACE ```/Users/cecollins/projects/j2objc-1.0.2``` with YOUR PATH to j2objc in the below settings that indicate such. 
+
 The COMPLETE settings needed to link the static library are as follows:
 * ALREADY SET - Build Settings -> Linking -> Other Linker Flags ```-ljre_emul```
 * ALREADY SET - Build Settings -> Search Paths -> Always Search User Paths set to ```Yes```.
