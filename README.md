@@ -43,7 +43,7 @@ Setup XCode and Include Static Library
 
 The second part is to use the static library you created in XCode with an iOS project.
 
-See the README.MD in the ./ios directory.
+See the [ios/README.md](./ios/README.md).
 
 
 
