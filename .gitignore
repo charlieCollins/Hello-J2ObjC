@@ -1,2 +1,6 @@
 .idea/
 build/
+xcuserdata/
+.DS_Store
+.Trashes
+*.swp
