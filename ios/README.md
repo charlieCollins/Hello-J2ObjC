@@ -1,5 +1,5 @@
-Hello J2ObjC XCode
-==================
+Hello J2ObjC iOS
+================
 
 See notes in ../README.md (if you didn't start there, go read that).
 
