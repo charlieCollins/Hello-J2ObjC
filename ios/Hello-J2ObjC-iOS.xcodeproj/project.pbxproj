@@ -379,9 +379,12 @@
 		538EF6561D2AE1790040E70A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/j2objc-1.0.2/include";
 				INFOPLIST_FILE = "Hello-J2ObjC-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/j2objc-1.0.2/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello-J2ObjC-iOS.app/Hello-J2ObjC-iOS";
@@ -391,9 +394,12 @@
 		538EF6571D2AE1790040E70A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/j2objc-1.0.2/include";
 				INFOPLIST_FILE = "Hello-J2ObjC-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/cecollins/projects/j2objc-1.0.2/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hello-J2ObjC-iOS.app/Hello-J2ObjC-iOS";
