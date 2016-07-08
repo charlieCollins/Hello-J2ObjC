@@ -26,6 +26,8 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'com.google.guava:guava:19.0'
+    compile 'com.google.code.gson:gson:2.7'
 }
 
 // Plugin settings; put these at the bottom of the file.
