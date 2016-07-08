@@ -18,6 +18,7 @@ Setup XCode
 * Open the iOS project in XCode: File->Open, browse to "iOS" folder of this project and open.
 
 Inside the iOS project go to Build Settings and Build Phase and update several properties so the project knows how to link and compile the library.   
+
 There are library and header search paths that must be updated, and one build phase.
 There are several RELATIVE paths that you should not have to change, and some complete paths that you will need to update.
 
