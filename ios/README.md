@@ -4,7 +4,7 @@ Hello J2ObjC iOS
 See notes in the top level Java [../README.md](../README.md) (if you didn't start there, go read that, that project creates and provides the static library that this project will import and link).
 
 There are many ways to work with J2ObjC generated code inside an iOS project (XCode).   
-For this Hello World example this project favors importing code compiled with J2Objc as a STATIC LIBRARY.
+For this Hello World example this project favors importing code compiled with J2ObjC as a STATIC LIBRARY.
 
 This iOS project ASSUMES you have already succeeded in transpiling
 *HelloWorld.java* into *libHello-J2ObjC-j2objc.a* (the static library) from the top level project (../).
