@@ -24,8 +24,7 @@ Setup JAVA Project and run J2ObjC
 The first part is to get a plain Java project with J2ObjC support working (no XCode involved, yet).
 
 * Download and unpack J2ObjC somewhere logical.
-* Set J2OBJC_HOME as an env var (```export J2OBJC_HOME=<your dir>```).
-* Make sure J2ObjC works (```cd $J2OBJC_HOME``` >  ```j2objc -version```).
+* Make sure J2ObjC works (```cd <J2OBJC_HOME>``` >  ```j2objc -version```).
 * Clone this repo.
 * Import this project into IDEA (the main project is plain Java), import EXTERNAL MODEL -> GRADLE.
 * Edit local.properties and set j2objc.home to the correct path (your local install).

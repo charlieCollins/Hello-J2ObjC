@@ -39,7 +39,7 @@
 		538EF64F1D2AE1790040E70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		538EF6581D2AE6970040E70A /* libHello-J2ObjC-j2objc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHello-J2ObjC-j2objc.a"; path = "../Hello-J2ObjC/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosRelease/libHello-J2ObjC-j2objc.a"; sourceTree = "<group>"; };
 		538EF65A1D2AE6D80040E70A /* libHello-J2ObjC-j2objc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libHello-J2ObjC-j2objc.a"; path = "../Hello-J2ObjC/build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosDebug/libHello-J2ObjC-j2objc.a"; sourceTree = "<group>"; };
-		538EF65D1D2AE8F80040E70A /* Hello-J2ObjC-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello-J2ObjC-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		538EF65D1D2AE8F80040E70A /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +90,7 @@
 				538EF63F1D2AE1790040E70A /* Assets.xcassets */,
 				538EF6411D2AE1790040E70A /* LaunchScreen.storyboard */,
 				538EF6441D2AE1790040E70A /* Info.plist */,
-				538EF65D1D2AE8F80040E70A /* Hello-J2ObjC-iOS-Bridging-Header.h */,
+				538EF65D1D2AE8F80040E70A /* Bridging-Header.h */,
 			);
 			path = "Hello-J2ObjC-iOS";
 			sourceTree = "<group>";
@@ -349,7 +349,7 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ljre_emul";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Hello-J2ObjC-iOS/Hello-J2ObjC-iOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hello-J2ObjC-iOS/Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = ../build/j2objcOutputs/src/main/objc;
 			};
@@ -371,7 +371,7 @@
 				"OTHER_LDFLAGS[arch=*]" = "-ljre_emul";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.totsp.Hello-J2ObjC-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Hello-J2ObjC-iOS/Hello-J2ObjC-iOS-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hello-J2ObjC-iOS/Bridging-Header.h";
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = ../build/j2objcOutputs/src/main/objc;
 			};
 			name = Release;
