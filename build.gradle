@@ -33,29 +33,27 @@ dependencies {
 // TODO skip the HelloWorldJavaDeps stuff, make it optional, adds a lot of time to build
 
 // takes longer, but check for cycles
+/*
 j2objcCycleFinder {
     enabled = true
 }
+*/
 
-// Plugin settings; put these at the bottom of the file.
 j2objcConfig {
     // Sets up libraries you depend on
     autoConfigureDeps true
 
-    // j2objc likes tests, +1
-    //testMinExpectedTests 0
-
     // exact num of cycles
-    cycleFinderExpectedCycles 23
+    //cycleFinderExpectedCycles 23
 
     // Omit these two lines if you don't configure your Xcode project with CocoaPods
-    xcodeProjectDir '.ios'
-    xcodeTargetsIos 'Hello-J2ObjC-iOS', 'Hello-J2ObjC-iOSTests'
+    ///xcodeProjectDir '.ios'
+    ///xcodeTargetsIos 'Hello-J2ObjC-iOS', 'Hello-J2ObjC-iOSTests'
 
     // including static libraries MANUALLY, for now
     j2objcXcode {
         enabled = false
     }
 
-    finalConfigure()          // Must be last call to configuration
+    finalConfigure()
 }
