@@ -1,0 +1,16 @@
+export J2OBJC_HOME=<where j2objc is>
+export PROJECT_HOME=<where this project is>
+
+J2OBJC
+------
+j2objc -d ./out -sourcepath $PROJECT_HOME/src/main/java -classpath $J2OBJC_HOME:$J2OBJC_HOME/lib/jre_emul.jar --build-closure $PROJECT_HOME/src/main/java/HelloWorld.java
+
+
+J2OBJCC
+-------
+$J2OBJC_HOME/j2objcc -c -I include ./out/HelloWorld.m
+
+
+Check static lib architectures
+-------------------------------
+lipo -info ./build/packedBinaries/Hello-J2ObjC-j2objcStaticLibrary/iosDebug/libHello-J2ObjC-j2objc.a
