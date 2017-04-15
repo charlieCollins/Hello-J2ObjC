@@ -1,6 +1,14 @@
 Hello J2ObjC
 ============
 
+UPDATE NEEDED!
+--------------
+This project is currently outdated, I will update it soon.    
+The j2objc-gradle plugin has been deprecated and it only supports OLD version of J2Objc itself.   
+This project currently fails to build unless you use an old version of j2objc (0.9).   
+I will update this soon to use a manual build script to run j2objc and create a static library.   
+FOR NOW THIS PROJECT DOES NOT WORK UNLESS YOU USE AN OLDER VERSION OF J2OBJC, BUT IT STILL CAN BE USED AS REFERENCE.      
+
 
 Overview
 --------
